@@ -1,0 +1,17 @@
+127.0.0.1 - - [03/May/2017:19:08:36 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:08:40 +0530] "GET /project1/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:09:15 +0530] "GET /project1/homePage HTTP/1.1" 200 4961
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:09:15 +0530] "GET /project1/resources/images/m2.jpg HTTP/1.1" 200 281277
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:09:15 +0530] "GET /project1/resources/images/m1.jpg HTTP/1.1" 200 775388
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:09:15 +0530] "GET /project1/resources/images/m3.jpg HTTP/1.1" 200 568805
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:10:09 +0530] "GET /project1/homePage HTTP/1.1" 200 4961
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:10:10 +0530] "GET /project1/resources/images/m1.jpg HTTP/1.1" 200 775388
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:10:10 +0530] "GET /project1/resources/images/m2.jpg HTTP/1.1" 200 281277
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:10:10 +0530] "GET /project1/resources/images/m3.jpg HTTP/1.1" 200 568805
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:10:12 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [03/May/2017:19:14:42 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:14:43 +0530] "GET /project1/WEB-INF/pages/Header.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:15:06 +0530] "GET /project1/WEB-INF/pages/Header.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:15:15 +0530] "GET /project1/Header.jsp HTTP/1.1" 404 1032
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:15:22 +0530] "GET /project1/Header.jsp HTTP/1.1" 404 1032
+0:0:0:0:0:0:0:1 - - [03/May/2017:19:15:37 +0530] "GET /project1/Header.jsp HTTP/1.1" 404 1032

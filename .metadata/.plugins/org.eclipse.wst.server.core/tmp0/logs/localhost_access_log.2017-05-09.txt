@@ -1,0 +1,10 @@
+127.0.0.1 - - [09/May/2017:09:57:13 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:17 +0530] "GET /project1/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:37 +0530] "GET /project1/homePage HTTP/1.1" 200 6182
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:38 +0530] "GET /project1/resources/images/cy1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:38 +0530] "GET /project1/resources/js/sample.js HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:38 +0530] "GET /project1/resources/images/gogreen2.png HTTP/1.1" 200 267017
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:38 +0530] "GET /project1/resources/images/cy3.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:38 +0530] "GET /project1/resources/images/cy2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:38 +0530] "GET /project1/resources/images/cy5.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2017:09:57:38 +0530] "GET /project1/resources/images/cy6.jpg HTTP/1.1" 200 62686
