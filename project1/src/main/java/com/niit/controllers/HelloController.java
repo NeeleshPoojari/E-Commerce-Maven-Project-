@@ -16,7 +16,7 @@ public class HelloController {
 		return "Header";
 	}
 
-	@RequestMapping("/combo")
+	@RequestMapping("/aboutus")
 	public String getComboPage() {
 		return "AboutUs";
 	}

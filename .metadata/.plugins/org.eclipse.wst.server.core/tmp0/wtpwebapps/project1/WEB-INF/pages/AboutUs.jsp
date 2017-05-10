@@ -8,7 +8,7 @@
 <title>About go green</title>
 <style>
 body  {
-    background-image: url("resources/images/greenbck.jpg" );
+    background-image: url("resources/images/HiRes.jpg" );
     background-color:white;
 }
 h1 {
@@ -17,8 +17,10 @@ h1 {
 }
 
 </style>
+
 </head>
 <body>
+<%@include file="Header.jsp" %>
 
 <h1>Hello World!
    
@@ -28,4 +30,5 @@ h1 {
 </h1>
 
 </body>
+<%@include file="Footer.jsp"%>
 </html>

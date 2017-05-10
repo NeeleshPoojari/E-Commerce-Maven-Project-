@@ -1,6 +1,8 @@
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+	 <%@ taglib uri="http://www.springframework.org/tags" prefix="url" %>
+	 <%@ page isELIgnored="false" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
@@ -39,10 +41,17 @@
 		</div>
 		<div class="collapse navbar-collapse" id="collapse-example">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="home.html">Home<span
+			<url:url value="/homePage" var="url2"></url:url>	
+				<li class="active"><a href="${url2 }">Home<span
 						class="sr-only">You are in home page link</span></a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Add Product</a></li>
+						
+				<url:url value="/aboutus" var="url1"></url:url>		
+				<li><a href="${url1 }">About Us</a></li>
+				
+				
+				
+           <url:url value="admin/product/productform" var="url"></url:url>
+				<li><a href="${url }">Add Product</a></li>
 
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown">dropdown<span class="caret"></span></a>

@@ -34,7 +34,7 @@
 						src="resources/images/cy1.jpg" style="width: 70%;" firstslide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>WELCOME To Go GREEn</h1>
+							<h1>WELCOME To Go GREEN</h1>
 							<p>Here We Go With Our Best Rides!!</p>
 						</div>
 					</div>
