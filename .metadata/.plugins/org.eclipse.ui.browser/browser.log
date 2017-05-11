@@ -1,0 +1,78 @@
+
+May 10, 2017 19:27:20.98 NEW SESSION
+May 10, 2017 19:27:20.98 [7716:5980:0510/192720.976:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+May 10, 2017 19:27:21.66 [3808:7596:0510/192721.662:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:27:21.66 [3808:7596:0510/192721.662:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:27:21.66 [3808:7596:0510/192721.662:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:27:21.66 [3808:7596:0510/192721.662:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:27:21.66 [3808:7596:0510/192721.662:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:28:55.74 [3808:7596:0510/192855.741:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:28:55.74 [3808:7596:0510/192855.742:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:28:55.74 [3808:7596:0510/192855.742:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:28:55.74 [3808:7596:0510/192855.745:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:28:55.74 [3808:7596:0510/192855.745:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 10, 2017 19:28:55.74 [3808:7596:0510/192855.745:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+May 11, 2017 14:28:14.58 NEW SESSION
+May 11, 2017 14:28:14.58 [11808:8312:0511/142814.572:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+May 11, 2017 14:28:20.24 [11900:4164:0511/142820.243:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:28:22.30 [11900:4164:0511/142822.300:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:28:24.96 [11900:4164:0511/142824.965:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:28:26.13 [11900:4164:0511/142826.135:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:28:26.14 [11900:4164:0511/142826.139:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:46.62 [11900:4164:0511/142946.618:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:46.63 [11900:4164:0511/142946.621:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:46.64 [11900:4164:0511/142946.629:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:46.64 [11900:4164:0511/142946.629:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:46.65 [11900:4164:0511/142946.629:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:46.65 [11900:4164:0511/142946.630:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:49.74 [11900:4164:0511/142949.742:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:49.75 [11900:4164:0511/142949.744:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:49.75 [11900:4164:0511/142949.747:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:49.75 [11900:4164:0511/142949.747:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:49.76 [11900:4164:0511/142949.747:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:29:49.76 [11900:4164:0511/142949.747:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:30:02.24 [11900:4164:0511/143002.246:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:30:02.25 [11900:4164:0511/143002.247:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:30:02.25 [11900:4164:0511/143002.248:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:30:02.25 [11900:4164:0511/143002.248:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:30:02.25 [11900:4164:0511/143002.248:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:30:02.25 [11900:4164:0511/143002.248:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:20.58 [11900:4164:0511/143420.578:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:20.59 [11900:4164:0511/143420.579:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:20.59 [11900:4164:0511/143420.580:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:20.60 [11900:4164:0511/143420.580:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:20.60 [11900:4164:0511/143420.580:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:20.60 [11900:4164:0511/143420.580:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:25.75 [11900:4164:0511/143425.748:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:25.75 [11900:4164:0511/143425.750:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:25.75 [11900:4164:0511/143425.750:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:25.76 [11900:4164:0511/143425.750:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:25.76 [11900:4164:0511/143425.750:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:25.77 [11900:4164:0511/143425.751:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:30.24 [11900:4164:0511/143430.246:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:30.25 [11900:4164:0511/143430.247:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:30.25 [11900:4164:0511/143430.247:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:30.25 [11900:4164:0511/143430.247:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:30.25 [11900:4164:0511/143430.247:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 14:34:30.25 [11900:4164:0511/143430.248:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 16:52:56.88 [11900:9332:0511/165256.054:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+May 11, 2017 19:08:16.07 NEW SESSION
+May 11, 2017 19:08:16.07 [11616:12048:0511/190816.069:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+May 11, 2017 19:08:22.27 [2296:8952:0511/190822.272:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 19:08:22.78 [2296:8952:0511/190822.784:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 19:08:22.86 [2296:8952:0511/190822.864:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 19:08:22.97 [2296:8952:0511/190822.978:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 19:08:23.03 [2296:8952:0511/190823.037:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 19:08:23.30 [2296:8952:0511/190823.304:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+May 11, 2017 19:09:27.32 [Child 508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 11, 2017 19:09:27.33 [Child 508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 11, 2017 19:09:29.44 
+May 11, 2017 19:09:29.44 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 11, 2017 19:09:29.45 
+May 11, 2017 19:12:40.80 1494510160806	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+May 11, 2017 19:12:40.87 1494510160869	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+May 11, 2017 19:12:40.93 1494510160937	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+May 11, 2017 19:12:40.99 1494510160997	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+May 11, 2017 19:12:41.06 1494510161064	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property

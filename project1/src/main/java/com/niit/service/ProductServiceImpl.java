@@ -9,23 +9,27 @@ import com.niit.dao.ProductDao;
 import com.niit.model.Product;
 
 @Service
-public class ProductServiceImpl implements ProductService{
-@Autowired
-private ProductDao productDao;
-public void saveProduct(Product product) {
-productDao.saveProduct(product);
+public class ProductServiceImpl implements ProductService {
+	@Autowired
+	private ProductDao productDao;
 
-}
-public List<Product> getAllProducts() {
-return productDao.getAllProducts();
-}
-@Override
-public Product getProductById(int id) {
-	return productDao.getProductById(id);
-}
-@Override
-public void deleteProduct(int id) {
-	productDao.deleteProduct(id);
-}
+	public void saveProduct(Product product) {
+		productDao.saveProduct(product);
+
+	}
+
+	public List<Product> getAllProducts() {
+		return productDao.getAllProducts();
+	}
+
+	@Override
+	public Product getProductById(int id) {
+		return productDao.getProductById(id);
+	}
+
+	@Override
+	public void deleteProduct(int id) {
+		productDao.deleteProduct(id);
+	}
 
 }

@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Product list</title>
 </head>
 <body>
 
@@ -18,13 +18,17 @@
 			<th>Price</th>
 			<th>Action</th>
 		</tr>
-
+		<!--For loop to get different products  -->
 		<c:forEach items="${products}" var="p">
 			<tr>
 				<td>${p.name}</td>
 				<td>${p.price }</td>
 				<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
-				<td></td>
+				<td><a href="${url }"><span
+						class="glyphicon glyphicon-info-sign"></span></a></td>
+				<url:url value="/admin/product/deleteproduct/${p.id }" var="url1"></url:url>
+				<td><a href="${url1 }"><span
+						class="glyphicon glyphicon-trash"></span></a></td>
 			</tr>
 		</c:forEach>
 	</table>

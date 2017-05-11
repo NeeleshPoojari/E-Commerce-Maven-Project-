@@ -4,6 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Product {
@@ -14,6 +16,28 @@ public class Product {
 	private String name;
 	private String manufacturer;
 	private double price;
+	private int unitInStock;
+	private String description;
+
+	@ManyToOne
+	@JoinColumn(name = "cid")
+	private Category category;
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public Category getCategory() {
+		return category;
+	}
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
 
 	public int getId() {
 		return id;
@@ -54,7 +78,5 @@ public class Product {
 	public void setUnitInStock(int unitInStock) {
 		this.unitInStock = unitInStock;
 	}
-
-	private int unitInStock;
 
 }

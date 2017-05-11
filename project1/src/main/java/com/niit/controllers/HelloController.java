@@ -11,11 +11,6 @@ public class HelloController {
 		return "Home";
 	}
 
-	@RequestMapping("/nav")
-	public String getnavPage() {
-		return "Header";
-	}
-
 	@RequestMapping("/aboutus")
 	public String getComboPage() {
 		return "AboutUs";
