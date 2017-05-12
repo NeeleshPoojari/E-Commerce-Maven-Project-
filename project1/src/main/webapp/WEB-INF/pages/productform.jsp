@@ -23,42 +23,49 @@
 				<div class="form-group">
 					<label for="id"></label>
 					<form:hidden path="id"></form:hidden>
+					<form:errors path="id" cssStyle="color:red"></form:errors>
 				</div>
 
 				<div class="form-group">
 					<label for="name">Product Name</label>
 					<form:input path="name" placeholder="Enter Product Name"></form:input>
+					<form:errors path="name" cssStyle="color:red"></form:errors>
 				</div>
 
 				<div class="form-group">
 					<label for="manufacturer">Product Manufacturer</label>
 					<form:input path="manufacturer" placeholder="Enter Manufacturer"></form:input>
+					<form:errors path="manufacturer" cssStyle="color:red"></form:errors>
 				</div>
 
 				<div class="form-group">
 					<label for="description">Product Description </label>
 					<form:input path="description" placeholder="Enter Description"></form:input>
+					<form:errors path="description" cssStyle="color:red"></form:errors>
 				</div>
 
 				<div class="form-group">
 					<label for="price">Product Price</label>
 					<form:input path="price"></form:input>
+					<form:errors path="price" cssStyle="color:red"></form:errors>
 				</div>
 
 
 				<div class="form-group">
 					<label for="unitInStock">Unit In Stock</label>
 					<form:input path="unitInStock"></form:input>
+					<form:errors path="unitInStock" cssStyle="color:red"></form:errors>
 				</div>
 
 				<div class="form-group">
 					<label for="category">Select Category</label>
-					
+
 					<!--This is for loop to get different categories  -->
-					
+
 					<c:forEach items="${categorydetails }" var="c">
 						<form:radiobutton path="category.cid" value="${c.cid }" />${c.categoryDetails }
 				</c:forEach>
+					<form:errors path="category" cssStyle="color:red"></form:errors>
 				</div>
 
 				<input type="submit" value="Add Product">

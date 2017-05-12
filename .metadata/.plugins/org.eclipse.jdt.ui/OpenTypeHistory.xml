@@ -2,4 +2,6 @@
 <typeInfoHistroy>
 <typeInfo handle="=project1/src\/main\/java&lt;com.niit.dao{ProductDao.java[ProductDao" modifiers="513" timestamp="1494344283056"/>
 <typeInfo handle="=project1/src\/main\/java&lt;com.niit.service{ProductService.java[ProductService" modifiers="513" timestamp="1494344069388"/>
+<typeInfo handle="=project1/src\/main\/java&lt;com.niit.service{CategoryService.java[CategoryService" modifiers="513" timestamp="1494514243525"/>
+<typeInfo handle="=project1/src\/main\/java&lt;com.niit.dao{CategoryDao.java[CategoryDao" modifiers="513" timestamp="1494514669325"/>
 </typeInfoHistroy>

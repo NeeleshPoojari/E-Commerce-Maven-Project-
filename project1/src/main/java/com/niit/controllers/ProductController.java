@@ -2,9 +2,12 @@ package com.niit.controllers;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,7 +33,9 @@ public class ProductController {
 	}
 
 	@RequestMapping("admin/product/saveproduct")
-	public String saveProduct(@ModelAttribute(name = "product") Product product) {
+	public String saveProduct(@Valid @ModelAttribute(name = "product") Product product, BindingResult result) {
+		if (result.hasErrors())
+			return "productform";
 		productService.saveProduct(product);
 		return "redirect:/all/product/productlist";
 	}

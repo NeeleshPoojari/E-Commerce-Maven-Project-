@@ -76,3 +76,15 @@ May 11, 2017 19:12:40.87 1494510160869	addons.update-checker	WARN	Update manifes
 May 11, 2017 19:12:40.93 1494510160937	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
 May 11, 2017 19:12:40.99 1494510160997	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
 May 11, 2017 19:12:41.06 1494510161064	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+May 11, 2017 23:03:31.93 1494524008031	Sync.ErrorHandler	ERROR	Sync encountered a login error
+May 12, 2017 24:05:32.80 [GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:37.05 [GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:37.16 [GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:37.16 [GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:37.16 [GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:37.35 [GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:38.16 [Child 10624] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:40.55 [GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 24:05:40.73 
+May 12, 2017 24:05:40.73 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 12, 2017 24:05:40.73 
