@@ -88,3 +88,172 @@ May 12, 2017 24:05:40.55 [GPU 11080] WARNING: pipe error: 109: file c:/builds/mo
 May 12, 2017 24:05:40.73 
 May 12, 2017 24:05:40.73 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 May 12, 2017 24:05:40.73 
+
+May 12, 2017 14:37:30.46 NEW SESSION
+May 12, 2017 14:37:30.46 [GPU 5452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 14:46:01.21 *************************
+May 12, 2017 14:46:01.24 A coding exception was thrown in a Promise resolution callback.
+May 12, 2017 14:46:01.24 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+May 12, 2017 14:46:01.24 
+May 12, 2017 14:46:01.24 Full message: TypeError: this.conn is null
+May 12, 2017 14:46:01.25 Full stack: onListTabs/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/root.js:281:9
+May 12, 2017 14:46:01.25 process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+May 12, 2017 14:46:01.25 walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+May 12, 2017 14:46:01.25 scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+May 12, 2017 14:46:01.25 
+May 12, 2017 14:46:01.25 *************************
+May 12, 2017 14:46:01.26 console.error: 
+May 12, 2017 14:46:01.26   Message: Error: connectionClosed: 'listTabs' active request packet to 'root' can't be sent as the connection just closed.
+May 12, 2017 14:46:01.26   Stack:
+May 12, 2017 14:46:01.26     _getRoot/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/target.js:294:18
+May 12, 2017 14:46:01.26 DebuggerClient.requester/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:283:9
+May 12, 2017 14:46:01.26 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:46:01.26 emitOnObject@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:112:9
+May 12, 2017 14:46:01.27 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:89:38
+May 12, 2017 14:46:01.27 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1322:29
+May 12, 2017 14:46:01.27 reject@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1145:7
+May 12, 2017 14:46:01.27 purgeRequests/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1166:47
+May 12, 2017 14:46:01.27 purgeRequests@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1166:5
+May 12, 2017 14:46:01.28 onClosed@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1100:5
+May 12, 2017 14:46:01.28 close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:668:11
+May 12, 2017 14:46:01.29 close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:664:9
+May 12, 2017 14:46:01.33 close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:664:9
+May 12, 2017 14:46:01.33 cleanup@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:371:7
+May 12, 2017 14:46:01.34 detachClients@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:395:9
+May 12, 2017 14:46:01.34 DebuggerClient.requester/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:283:9
+May 12, 2017 14:46:01.34 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:46:01.35 emitOnObject@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:112:9
+May 12, 2017 14:46:01.40 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:89:38
+May 12, 2017 14:46:01.40 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1322:29
+May 12, 2017 14:46:01.40 emitReply@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1021:29
+May 12, 2017 14:46:01.40 callFunctionWithAsyncStack@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/platform/chrome/stack.js:69:12
+May 12, 2017 14:46:01.40 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1023:9
+May 12, 2017 14:46:01.40 send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+May 12, 2017 14:46:01.40 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:46:01.40 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:46:01.41 
+May 12, 2017 14:53:04.65 *************************
+May 12, 2017 14:53:04.69 A coding exception was thrown in a Promise resolution callback.
+May 12, 2017 14:53:04.69 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+May 12, 2017 14:53:04.70 
+May 12, 2017 14:53:04.70 Full message: TypeError: this.conn is null
+May 12, 2017 14:53:04.70 Full stack: onListTabs/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/root.js:281:9
+May 12, 2017 14:53:04.70 process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917:23
+May 12, 2017 14:53:04.70 walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801:7
+May 12, 2017 14:53:04.70 scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737:11
+May 12, 2017 14:53:04.71 
+May 12, 2017 14:53:04.71 *************************
+May 12, 2017 14:53:04.71 console.error: 
+May 12, 2017 14:53:04.71   Message: Error: connectionClosed: 'listTabs' active request packet to 'root' can't be sent as the connection just closed.
+May 12, 2017 14:53:04.72   Stack:
+May 12, 2017 14:53:04.72     _getRoot/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/target.js:294:18
+May 12, 2017 14:53:04.72 DebuggerClient.requester/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:283:9
+May 12, 2017 14:53:04.72 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:53:04.72 emitOnObject@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:112:9
+May 12, 2017 14:53:04.72 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:89:38
+May 12, 2017 14:53:04.72 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1322:29
+May 12, 2017 14:53:04.72 reject@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1145:7
+May 12, 2017 14:53:04.73 purgeRequests/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1166:47
+May 12, 2017 14:53:04.73 purgeRequests@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1166:5
+May 12, 2017 14:53:04.73 onClosed@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1100:5
+May 12, 2017 14:53:04.73 close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:668:11
+May 12, 2017 14:53:04.73 close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:664:9
+May 12, 2017 14:53:04.76 close@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:664:9
+May 12, 2017 14:53:04.76 cleanup@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:371:7
+May 12, 2017 14:53:04.76 detachClients@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:395:9
+May 12, 2017 14:53:04.76 DebuggerClient.requester/</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:283:9
+May 12, 2017 14:53:04.76 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:53:04.77 emitOnObject@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:112:9
+May 12, 2017 14:53:04.77 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:89:38
+May 12, 2017 14:53:04.77 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1322:29
+May 12, 2017 14:53:04.77 emitReply@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1021:29
+May 12, 2017 14:53:04.77 callFunctionWithAsyncStack@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/platform/chrome/stack.js:69:12
+May 12, 2017 14:53:04.77 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/client/main.js:1023:9
+May 12, 2017 14:53:04.77 send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+May 12, 2017 14:53:04.78 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:53:04.78 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+May 12, 2017 14:53:04.78 
+May 12, 2017 15:41:57.43 [GPU 5452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 15:41:58.55 [GPU 5452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 15:42:00.36 IPDL protocol error: Handler returned error code!
+May 12, 2017 15:42:00.36 
+May 12, 2017 15:42:00.37 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 12, 2017 15:42:00.37 
+May 12, 2017 15:42:00.37 IPDL protocol error: Handler returned error code!
+May 12, 2017 15:42:00.37 
+May 12, 2017 15:42:00.37 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 12, 2017 15:42:00.37 
+May 12, 2017 15:42:00.38 IPDL protocol error: Handler returned error code!
+May 12, 2017 15:42:00.38 
+May 12, 2017 15:42:00.38 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 12, 2017 15:42:00.38 
+May 12, 2017 15:42:00.38 IPDL protocol error: Handler returned error code!
+May 12, 2017 15:42:00.38 
+May 12, 2017 15:42:00.38 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 12, 2017 15:42:00.38 
+May 12, 2017 15:42:01.45 
+May 12, 2017 15:42:01.45 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.45 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400A8,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400A9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400A9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.46 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400A9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.46 
+May 12, 2017 15:42:01.47 
+May 12, 2017 15:42:01.47 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400A9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+May 12, 2017 15:42:01.47 
+May 12, 2017 15:42:01.47 [Child 6596] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 15:42:01.49 [Child 6596] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 12, 2017 15:42:03.17 
+May 12, 2017 15:42:03.17 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 12, 2017 15:42:03.17 
+
+May 13, 2017 12:30:17.47 NEW SESSION
+May 13, 2017 12:30:17.47 1494658817453	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+May 13, 2017 12:30:17.57 1494658817510	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+May 13, 2017 12:30:17.63 1494658817631	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+May 13, 2017 12:30:17.68 1494658817682	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+May 13, 2017 12:30:17.74 1494658817743	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+May 13, 2017 12:51:10.66 [GPU 1692] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 13, 2017 12:51:10.67 [GPU 1692] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 13, 2017 12:51:12.30 [GPU 1692] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 13, 2017 12:51:12.38 
+May 13, 2017 12:51:12.39 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 13, 2017 12:51:12.39 
+May 13, 2017 13:31:46.28 
+May 13, 2017 13:31:46.28 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 13, 2017 13:31:46.28 
+
+May 13, 2017 16:09:09.62 NEW SESSION
+May 13, 2017 16:09:09.63 [GPU 7800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 13, 2017 16:09:10.67 
+May 13, 2017 16:09:10.67 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 13, 2017 16:09:10.68 

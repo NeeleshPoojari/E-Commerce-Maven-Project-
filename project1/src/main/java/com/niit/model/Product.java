@@ -6,9 +6,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.web.multipart.MultipartFile;
 
 @Entity
 public class Product {
@@ -34,7 +37,19 @@ public class Product {
 
 	@ManyToOne
 	@JoinColumn(name = "cid")
+	@NotNull(message="Select catrgory it is mandatory")
 	private Category category;
+	
+	@Transient
+	private MultipartFile image;
+
+	public MultipartFile getImage() {
+		return image;
+	}
+
+	public void setImage(MultipartFile image) {
+		this.image = image;
+	}
 
 	public String getDescription() {
 		return description;

@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>About go green</title>
+<!-- <link rel="stylesheet" type="text/css" href="background.css"> -->
 <style>
 body {
 	background-image: url("resources/images/HiRes.jpg" );

@@ -34,24 +34,25 @@
 			<span class="icon-bar"></span> <span class="icon-bar"></span>
 		</button>
 		<div class="navbar-header">
-
+			<url:url value="/resources/images/gogreen2.png" var="url6"></url:url>
 			<a class="navbar-brand" href="#"><img
-				src="resources/images/gogreen2.png" alt="Green" height="50px"
+				src="${url6 }" alt="Green" height="50px"
 				width="50px"></a>
 		</div>
 		<div class="collapse navbar-collapse" id="collapse-example">
 			<ul class="nav navbar-nav">
-				<url:url value="/homePage" var="url2"></url:url>
-				<li class="active"><a href="${url2 }">Home<span
+				<url:url value="/homePage" var="url1"></url:url>
+				<li class="active"><a href="${url1 }">Home<span
 						class="sr-only">You are in home page link</span></a></li>
 
-				<url:url value="/aboutus" var="url1"></url:url>
-				<li><a href="${url1 }">About Us</a></li>
+				<url:url value="/aboutus" var="url2"></url:url>
+				<li><a href="${url2 }">About Us</a></li>
 
 
 
-				<url:url value="admin/product/productform" var="url"></url:url>
-				<li><a href="${url }">Add Product</a></li>
+
+				<url:url value="admin/product/productform" var="url3"></url:url>
+				<li><a href="${url3 }">Add Product</a></li>
 
 				<!--Dropdown menu  -->
 

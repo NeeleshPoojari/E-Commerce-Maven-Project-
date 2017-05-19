@@ -2,6 +2,7 @@
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%@ include file="Header.jsp"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="url"%>
 <%@page isELIgnored="false"%>
 <html>
 <head>
@@ -10,6 +11,9 @@
 </head>
 <body>
 	<!--Showing Product Details -->
+	<url:url value="/resources/images/${id }.png" var="url4"></url:url>
+	<td><img src="${url4 }" height="200" width="200"></td><br>
+	
 	PRODUCT NAME: ${product.name }
 	<br> PRICE : ${product.price }
 	<br> MANUFACTURER: ${product.manufacturer }

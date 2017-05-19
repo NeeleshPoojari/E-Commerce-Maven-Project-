@@ -18,7 +18,8 @@
 	<div class="container wrapper">
 		<div class="container">
 			<url:url var="url" value="/admin/product/saveproduct"></url:url>
-			<form:form action="${url }" modelAttribute="product" method="post">
+			<form:form action="${url }" modelAttribute="product" method="post"
+				enctype="multipart/form-data">
 
 				<div class="form-group">
 					<label for="id"></label>
@@ -57,19 +58,25 @@
 					<form:errors path="unitInStock" cssStyle="color:red"></form:errors>
 				</div>
 
-				<div class="form-group">
-					<label for="category">Select Category</label>
-
+			
 					<!--This is for loop to get different categories  -->
 
-					<c:forEach items="${categorydetails }" var="c">
-						<form:radiobutton path="category.cid" value="${c.cid }" />${c.categoryDetails }
-				</c:forEach>
-					<form:errors path="category" cssStyle="color:red"></form:errors>
-				</div>
+					<div class="form-group">
+						<label for="category">Select Category</label>
+						<c:forEach items="${categorydetails }" var="c">
 
-				<input type="submit" value="Add Product">
+							<form:radiobutton path="category.cid" value="${c.cid }" />${c.categoryDetails }
 
+</c:forEach>
+						<form:errors path="category" cssStyle="color:red"></form:errors>
+					</div>
+					
+					<div class="form-group">
+						<label for="image">Upload Image</label> <input type="file"
+							name="image">
+					</div>
+
+					<input type="submit" value="[Add/Edit] Product">
 			</form:form>
 
 		</div>

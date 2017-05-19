@@ -40,7 +40,7 @@ public class ProductDaoImpl implements ProductDao {
 		return product;
 	}
 
-	@Override
+	
 	public void deleteProduct(int id) {
 		Session session = sessionFactory.openSession();
 		Product product = (Product) session.get(Product.class, id);
