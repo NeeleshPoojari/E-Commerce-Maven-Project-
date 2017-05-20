@@ -36,20 +36,28 @@ public class ProductController {
 		model.addAttribute("categorydetails", categoryDetails);
 		return "productform";
 	}
+	
+	@RequestMapping("/admin/product/editproduct/{id}")
+	public String editProduct(@PathVariable int id,Model model){
+		Product product=productService.getProductById(id);
+		model.addAttribute("product",product);
+		List<Category> categoryDetails=categoryService.getAllCategories();
+		model.addAttribute("categorydetails",categoryDetails);
+		return "productform";
+	}
 
 	@RequestMapping("admin/product/saveproduct")
-	public String saveProduct(@Valid @ModelAttribute(name = "product") Product product, BindingResult result) {
-		if (result.hasErrors()) {
+	public String saveOrUpdateProduct(@Valid @ModelAttribute(name="product") Product product,BindingResult result){
+		if(result.hasErrors()){
 			System.out.println("HAS ERRORS");
 			return "productform";
 		}
 		System.out.println("After validation");
-		productService.saveProduct(product);
-
-		MultipartFile image = product.getImage();
-		if (image != null && !image.isEmpty()) {
-			Path path = Paths
-					.get("G:/Project1/project1/src/main/webapp/WEB-INF/resources/images/" + product.getId() + ".png");
+		productService.saveOrUpdateProduct(product);
+		
+		MultipartFile image=product.getImage();
+		if(image!=null && !image.isEmpty()){
+		Path path=Paths.get("G:/Project1/project1/src/main/webapp/WEB-INF/resources/images/" + product.getId() + ".png");
 			try {
 				image.transferTo(new File(path.toString()));
 			} catch (IllegalStateException e) {

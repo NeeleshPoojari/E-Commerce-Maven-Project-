@@ -15,10 +15,12 @@ public class ProductDaoImpl implements ProductDao {
 	@Autowired
 	private SessionFactory sessionFactory;
 
-	public void saveProduct(Product product) {
-		Session session = sessionFactory.openSession();
+	public void saveOrUpdateProduct(Product product) {
+		Session session=sessionFactory.openSession();
 		System.out.println("PRODUCT ID BEFORE INSERTION " + product.getId());
-		session.save(product);
+		//if product.getId()==0 ?  - insert into table
+		//if product.getId()!=o  ? - update table ...
+		session.saveOrUpdate(product);
 		System.out.println("PRODUCT ID AFTER INSERTION " + product.getId());
 		session.flush();
 		session.close();

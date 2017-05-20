@@ -8,41 +8,60 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Product list</title>
 </head>
 <body>
 
 
-	<table>
-		<tr>
-			<th>Image</th>
+	<div class="container">
+		<table class="table table-hover">
 
-			<th>Product Name</th>
-			<th>Price</th>
-			<th>Action</th>
-		</tr>
-		<!--For loop to get different products  -->
-		<c:forEach items="${products}" var="p">
-			<tr>
-				<url:url value="/resources/images/${p.id }.png" var="url4"></url:url>
-				<td><img src="${url4 }" height="50" width="50"></td>
 
-				<td>${p.name}</td>
+			<thead>
+				<tr>
+					<th>Image</th>
+					<th>Product Name</th>
+					<th>Price</th>
+					<th>Info</th>
+					<th>Edit</th>
+					<th>Delete</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!--For loop to get different products  -->
+				<c:forEach items="${products}" var="p">
+					<tr>
+						<url:url value="/resources/images/${p.id }.png" var="url4"></url:url>
+						<td><img src="${url4 }" height="80" width="80"></td>
 
-				<td>${p.price }</td>
+						<td>${p.name}</td>
 
-				<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
-				<td><a href="${url }"><span
-						class="glyphicon glyphicon-info-sign"></span></a></td>
+						<td>${p.price }</td>
 
-				<url:url value="/admin/product/deleteproduct/${p.id }" var="url1"></url:url>
-				<td><a href="${url1 }"><span
-						class="glyphicon glyphicon-trash"></span></a></td>
-			</tr>
-		</c:forEach>
-	</table>
+						<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
+						<td><a href="${url }"><span
+								class="glyphicon glyphicon-info-sign"></span></a></td>
 
+						<url:url value="/admin/product/editproduct/${p.id }" var="url2"></url:url>
+						<td><a href="${url2 }"><span
+								class="glyphicon glyphicon-pencil"></span></a></td>
+
+						<url:url value="/admin/product/deleteproduct/${p.id }" var="url1"></url:url>
+						<td><a href="${url1 }"><span
+								class="glyphicon glyphicon-trash"></span></a></td>
+					</tr>
+				</c:forEach>
+			<tbody>
+		</table>
+	</div>
 </body>
 <%@ include file="Footer.jsp"%>
 </html>

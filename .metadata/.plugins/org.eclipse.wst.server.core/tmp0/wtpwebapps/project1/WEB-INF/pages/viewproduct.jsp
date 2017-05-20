@@ -12,7 +12,7 @@
 <body>
 	<!--Showing Product Details -->
 	<url:url value="/resources/images/${id }.png" var="url4"></url:url>
-	<td><img src="${url4 }" height="200" width="200"></td><br>
+	<img src="${url4 }" height="200" width="200"><br>
 	
 	PRODUCT NAME: ${product.name }
 	<br> PRICE : ${product.price }

@@ -51,9 +51,13 @@
 
 
 
-				<url:url value="admin/product/productform" var="url3"></url:url>
+				<url:url value="/admin/product/productform" var="url3"></url:url>
 				<li><a href="${url3 }">Add Product</a></li>
-
+             
+             <url:url value="/all/product/productlist" var="url6"></url:url>
+				<li><a href="${url6 }">All product</a></li>
+				
+				
 				<!--Dropdown menu  -->
 
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
