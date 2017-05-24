@@ -1,0 +1,8 @@
+package com.niit.model;
+
+public class Authorities {
+
+	private int id;
+	private String username;
+	private String role;
+}

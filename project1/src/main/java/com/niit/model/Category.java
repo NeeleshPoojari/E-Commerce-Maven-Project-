@@ -16,24 +16,29 @@ public class Category {
 	private String categoryDetails;
 	@OneToMany(mappedBy = "category")
 	private List<Product> products;
+
 	public int getCid() {
 		return cid;
 	}
+
 	public void setCid(int cid) {
 		this.cid = cid;
 	}
+
 	public String getCategoryDetails() {
 		return categoryDetails;
 	}
+
 	public void setCategoryDetails(String categoryDetails) {
 		this.categoryDetails = categoryDetails;
 	}
+
 	public List<Product> getProducts() {
 		return products;
 	}
+
 	public void setProducts(List<Product> products) {
 		this.products = products;
 	}
-	
 
 }

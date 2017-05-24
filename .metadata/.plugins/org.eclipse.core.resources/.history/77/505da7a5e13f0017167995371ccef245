@@ -1,0 +1,7 @@
+
+.navbar-default{
+	
+	background-color:#c282c8;
+	border-color:#ff0000;
+	border-radius:0;
+}

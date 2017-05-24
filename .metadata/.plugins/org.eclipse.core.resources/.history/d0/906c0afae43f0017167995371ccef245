@@ -1,0 +1,12 @@
+
+.navbar-default{
+	
+	background-color:#0080ff;
+	border-color:#000040;
+	border-radius:0;
+}
+.navbar-default.navbar-brand,
+.navbar-default.navbar-brand:hover,
+.navbar-default.navbar-brand:focus{
+	color:#400040;
+}

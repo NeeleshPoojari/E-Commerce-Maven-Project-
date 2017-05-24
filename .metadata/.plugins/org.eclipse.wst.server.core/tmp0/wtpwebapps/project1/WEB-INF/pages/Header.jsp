@@ -8,24 +8,15 @@
 <head>
 <title>Header</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="resources/css/custom.css">
 
-<script type="text/javascript"
-	src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
-<script type="text/javascript"
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<link
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-	rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<button type="button" class="navbar-toggle collapsed"
 			data-toggle="collapse" data-target="#collapse-example"
@@ -55,17 +46,17 @@
 				<li><a href="${url3 }">Add Product</a></li>
              
              <url:url value="/all/product/productlist" var="url6"></url:url>
-				<li><a href="${url6 }">All product</a></li>
+				<li><a href="${url6 }">All Product</a></li>
 				
 				
 				<!--Dropdown menu  -->
 
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
-					data-toggle="dropdown">dropdown<span class="caret"></span></a>
+					data-toggle="dropdown">Category <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Edit</a></li>
-						<li><a href="#">Delete</a></li>
-						<li><a href="#">View</a></li>
+						<li><a href="#">New</a></li>
+						<li><a href="#">Special</a></li>
+						<li><a href="#">Discount</a></li>
 					</ul></li>
 			</ul>
 

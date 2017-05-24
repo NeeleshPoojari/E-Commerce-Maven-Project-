@@ -37,9 +37,9 @@ public class Product {
 
 	@ManyToOne
 	@JoinColumn(name = "cid")
-	@NotNull(message="Select catrgory it is mandatory")
+	@NotNull(message = "Select catrgory it is mandatory")
 	private Category category;
-	
+
 	@Transient
 	private MultipartFile image;
 

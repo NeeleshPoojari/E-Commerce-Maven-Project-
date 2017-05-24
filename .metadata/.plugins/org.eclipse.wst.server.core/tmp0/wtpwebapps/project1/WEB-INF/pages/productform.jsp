@@ -8,6 +8,7 @@
 
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>ProductForm</title>
 </head>
@@ -27,56 +28,68 @@
 					<form:errors path="id" cssStyle="color:red"></form:errors>
 				</div>
 
-				<div class="form-group">
-					<label for="name">Product Name</label>
-					<form:input path="name"  class="form-control" placeholder="Enter Product Name"></form:input>
-					<form:errors path="name" cssStyle="color:red"></form:errors>
-				</div>
 
-				<div class="form-group">
-					<label for="manufacturer">Product Manufacturer</label>
-					<form:input path="manufacturer"  class="form-control" placeholder="Enter Manufacturer"></form:input>
-					<form:errors path="manufacturer" cssStyle="color:red"></form:errors>
-				</div>
-
-				<div class="form-group">
-					<label for="description">Product Description </label>
-					<form:input path="description"  class="form-control" placeholder="Enter Description"></form:input>
-					<form:errors path="description" cssStyle="color:red"></form:errors>
-				</div>
-
-				<div class="form-group">
-					<label for="price">Product Price</label>
-					<form:input path="price"  class="form-control"></form:input>
-					<form:errors path="price" cssStyle="color:red"></form:errors>
-				</div>
-
-
-				<div class="form-group">
-					<label for="unitInStock">Unit In Stock</label>
-					<form:input path="unitInStock"  class="form-control"></form:input>
-					<form:errors path="unitInStock" cssStyle="color:red"></form:errors>
-				</div>
-
-			
-					<!--This is for loop to get different categories  -->
-
-					<div class="form-group">
-						<label for="category">Select Category</label>
-						<c:forEach items="${categorydetails }" var="c">
-
-							<form:radiobutton path="category.cid"  value="${c.cid }" />${c.categoryDetails }
-
-</c:forEach>
-						<form:errors path="category" cssStyle="color:red"></form:errors>
+				<div class="row">
+					<div class="form-group col-xs-4">
+						<label for="name">Product Name</label>
+						<form:input path="name" class="form-control input-lg"
+							placeholder="Enter Product Name"></form:input>
+						<form:errors path="name" cssStyle="color:red"></form:errors>
 					</div>
-					
-					<div class="form-group">
-						<label for="image">Upload Image</label> <input type="file"
-							name="image"  >
-					</div>
+				</div>
 
-					<input type="submit" value="[Add/Edit] Product">
+				<div class="row">
+					<div class="form-group col-xs-4">
+						<label for="manufacturer">Product Manufacturer</label>
+						<form:input path="manufacturer" class="form-control input-lg"
+							placeholder="Enter Manufacturer"></form:input>
+						<form:errors path="manufacturer" cssStyle="color:red"></form:errors>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group col-xs-4">
+						<label for="description">Product Description </label>
+						<form:input path="description" class="form-control input-lg"
+							placeholder="Enter Description"></form:input>
+						<form:errors path="description" cssStyle="color:red"></form:errors>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-xs-4">
+						<label for="price">Product Price</label>
+						<form:input path="price" class="form-control input-lg"></form:input>
+						<form:errors path="price" cssStyle="color:red"></form:errors>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group col-xs-4">
+						<label for="unitInStock">Unit In Stock</label>
+						<form:input path="unitInStock" class="form-control input-lg"></form:input>
+						<form:errors path="unitInStock" cssStyle="color:red"></form:errors>
+					</div>
+				</div>
+
+
+				<!--This is for loop to get different categories  -->
+
+				<div class="form-group">
+					<label for="category">Select Category</label>
+					<c:forEach items="${categorydetails }" var="c">
+
+						<form:radiobutton path="category.cid" value="${c.cid }" />${c.categoryDetails }
+
+                    </c:forEach>
+					<form:errors path="category" cssStyle="color:red"></form:errors>
+				</div>
+				<div class="row">
+					<div class="form-group col-xs-3">
+						<label for="image" >Upload Image</label> <input type="file"
+							name="image" class="form-control input-sm">
+					</div>
+				</div>
+
+				<input type="submit" value="[Add/Edit] Product">
 			</form:form>
 
 		</div>

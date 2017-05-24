@@ -6,19 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>About go green</title>
-<!-- <link rel="stylesheet" type="text/css" href="background.css"> -->
-<style>
-body {
-	background-image: url("resources/images/HiRes.jpg" );
-	background-color: white;
-}
-
-h1 {
-	color: white;
-	text-align: center;
-}
-</style>
-
+ <link rel="stylesheet" type="text/css" href="resources/css/background.css">
 </head>
 <body>
 	<%@include file="Header.jsp"%>
@@ -26,5 +14,8 @@ h1 {
 	<h1>Hello World! Go Green with Best Cycles</h1>
 
 </body>
-<%@include file="Footer.jsp"%>
+<footer class="container-fluid text-center">
+<p><%@include file="Footer.jsp"%></p>
+</footer>
+
 </html>
