@@ -15,7 +15,7 @@
 			<url:url value="/all/register" var="url"></url:url>
 			<form:form action="${url }" modelAttribute="customer" method="post">
 
-				<div class="boxed" style="border: 1px solid">
+				<div class="boxed" style="border: 3px solid">
 					<h3>Customer</h3>
 					<div class="form-group">
 						<label for="id"></label>
