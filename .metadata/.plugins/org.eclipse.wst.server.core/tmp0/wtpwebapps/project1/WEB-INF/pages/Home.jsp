@@ -44,7 +44,7 @@ footer {
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img class="first-slide home-image" src="resources/images/cy1.jpg"" firstslide">
+				<img class="first-slide home-image" src="resources/images/fuji.jpg"" firstslide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>WELCOME To Go GREEN</h1>
@@ -53,7 +53,7 @@ footer {
 				</div>
 			</div>
 			<div class="item">
-				<img class="second-slide home-image" src="resources/images/cy3.jpg"Secondslide" >
+				<img class="second-slide home-image" src="resources/images/f3.jpg"Secondslide" >
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Beauty</h1>

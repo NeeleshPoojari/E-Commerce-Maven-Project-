@@ -1,12 +1,13 @@
 
 body {
-	background-image: url("../images/HiRes.jpg" );
+	background-image: url("../images/aub1.jpg");
 	background-color: white;
 }
 
 h1 {
-	font-color: white;
-	text-align: middle;
+    color:white;
+	text-align:center;
+	background-color: white;
 }
 
 

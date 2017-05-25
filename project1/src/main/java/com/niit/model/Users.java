@@ -11,7 +11,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
 public class Users {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;

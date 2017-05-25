@@ -83,13 +83,14 @@
 					<form:errors path="category" cssStyle="color:red"></form:errors>
 				</div>
 				<div class="row">
-					<div class="form-group col-xs-3">
-						<label for="image" >Upload Image</label> <input type="file"
-							name="image" class="form-control input-sm">
-					</div>
+					<label class="btn btn-default btn-file" for="image"
+						class="form-control input-lg"><input type="file">
+					</label>
 				</div>
+				<br>
 
-				<input type="submit" value="[Add/Edit] Product">
+				<button type="submit" class="btn btn-success">Add Product</button>
+
 			</form:form>
 
 		</div>

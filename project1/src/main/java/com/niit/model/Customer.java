@@ -1,5 +1,6 @@
 package com.niit.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,6 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.validation.Valid;
+import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
@@ -16,6 +19,8 @@ public class Customer {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+
+	@NotEmpty
 	private String firstname;
 
 	private String lastname;
@@ -24,22 +29,28 @@ public class Customer {
 	@NotEmpty
 	@Email
 	private String email;
-	
+
+	@Size(min = 10, max = 10)
 	private String phone;
 
-	@OneToOne
+	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "user_id")
+	@Valid
 	private Users users;
-	@OneToOne
+
+	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "billing_id")
+	@Valid
 	private BillingAddress billingAddress;
 
-	@OneToOne
+	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "shipping_id")
+	@Valid
 	private ShippingAddress shippingAddress;
 
-	@OneToOne
+	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "cart_id")
+	@Valid
 	private Cart cart;
 
 	public int getId() {

@@ -8,11 +8,9 @@ import javax.persistence.Id;
 
 @Entity
 public class Authorities {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-
 	@Column(unique = true, nullable = false)
 	private String username;
 	private String role;
@@ -40,4 +38,5 @@ public class Authorities {
 	public void setRole(String role) {
 		this.role = role;
 	}
+
 }

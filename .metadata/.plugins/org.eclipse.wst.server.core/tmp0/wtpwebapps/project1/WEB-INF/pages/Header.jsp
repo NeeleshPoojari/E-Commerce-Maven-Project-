@@ -61,9 +61,9 @@
 			</ul>
 
 			<!--Sign up login features  -->
-
+<url:url value="/all/registrationform" var="url7"></url:url>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span>
+				<li><a href="${url7 }"><span class="glyphicon glyphicon-user"></span>
 						Sign Up</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
 						Login</a></li>

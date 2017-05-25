@@ -10,7 +10,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 @Entity
 public class ShippingAddress {
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	@NotEmpty
 	private String apartmentnumber;
@@ -22,6 +22,7 @@ public class ShippingAddress {
 	private String country;
 	@NotEmpty
 	private String zipcode;
+
 	public int getId() {
 		return id;
 	}
