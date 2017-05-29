@@ -1,0 +1,35 @@
+
+.navbar-default {
+	
+	background-color:#00b8e6;
+	border-color:#428bca;
+	border-radius:0;
+}
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus {
+	color:#ff0000;
+}
+.nav.navbar-nav>li>a{
+	color:#fff;
+}
+.nav.navbar-nav>li>a:hove,
+.na.navbar-nav>li>a:focus{
+	background-color:#ff0000;
+}
+.nav.nabar-nav>.active>a,
+.nav.nabar-nav>.active>a:hover,
+.navbar-default.nabar-nav>.active>a:focus {
+color:#fff;
+background-color:#428bca;	
+}
+.navbar-default.navbar-text{
+	color:#ffff00;
+}
+.navbar-default.navbar-toggle{
+	border-color:#428bca;
+}
+.navbar-default.nabar-toggle:hover,
+.navbar-default.nabar-toggle:focus {
+	background-color:#428bca;
+}

@@ -2,21 +2,31 @@
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@ taglib uri="http://www.springframework.org/tags" prefix="url"%>
 <%@ include file="Header.jsp"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+<title>Registration Form</title>
+<link rel="stylesheet"
+	href="http://localhost:8080/project1/resources/css/border.css">
+	
+	
+<script src="<c:url value="../resources/js/passwordConfirm.js"></c:url>"></script>
+
+</head >
+
+<body id="myPage">
+<div style="margin-top: 50px">
+
 	<div class="container wrapper">
 		<div class="container">
 			<url:url value="/all/register" var="url"></url:url>
 			<form:form action="${url }" modelAttribute="customer" method="post">
 
-				<div class="boxed" style="border: 3px solid">
-					<h3>Customer</h3>
+				<div class="boxed" id="d">
+					<h3>
+						<b><u>Personal Information</u></b>
+					</h3>
 					<div class="form-group">
 						<label for="id"></label>
 						<form:hidden path="id"></form:hidden>
@@ -63,8 +73,10 @@
 				<br>
 
 
-				<div class="boxed" style="border: 1px solid">
-					<h3>Users</h3>
+				<div class="boxed" id="d">
+					<h3>
+						<b><u>Select User name and Password</u></b>
+					</h3>
 					<div class="row">
 						<div class="form-group col-xs-4">
 							<label for="users.username">Username</label>
@@ -79,15 +91,28 @@
 						<div class="form-group col-xs-4">
 							<label for="users.password">Password</label>
 							<form:input path="users.password" type="password"
-								class="form-control input-lg" placeholder="Enter Password"></form:input>
+								class="form-control input-lg" placeholder="Enter Password"
+								id="p1"></form:input>
 							<form:errors path="users.password" cssStyle="color:red"></form:errors>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="form-group col-xs-4">
+							<label>Confirm Password</label> <input type="password"
+								name="confirm_password" id="p2" placeholder="Enter Password"
+								class="form-control input-lg" onBlur='check_pass();' /> <span
+								id='message'></span>
 						</div>
 					</div>
 				</div>
 				<br>
 
-				<div class="boxed" style="border: 1px solid">
-					<h3>Billing Address</h3>
+
+				<div class="boxed" id="d">
+					<h3>
+						<b><u>Billing Address</u></b>
+					</h3>
 					<div class="row">
 						<div class="form-group col-xs-4">
 							<label for="billingAddress.streetname">Streetname</label>
@@ -137,8 +162,10 @@
 				</div>
 				<br>
 
-				<div class="boxed" style="border: 1px solid">
-					<h3>Shipping Address</h3>
+				<div class="boxed" id="d">
+					<h3>
+						<b><u>Shipping Address</u></b>
+					</h3>
 					<div class="row">
 						<div class="form-group col-xs-4">
 							<label for="shippingAddress.streetname">Streetname</label>
@@ -187,13 +214,11 @@
 					</div>
 				</div>
 				<br>
-
-				<button type="submit" class="btn btn-success">Register</button>
-
-
+				<button type="submit" class="btn btn-success" id="submit" disabled style="margin-bottom:30px">Register</button>
 			</form:form>
 		</div>
 
+	</div>
 	</div>
 </body>
 <%@include file="Footer.jsp"%>

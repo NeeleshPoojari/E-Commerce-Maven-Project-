@@ -20,13 +20,13 @@ public class Customer {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 
-	@NotEmpty
+	@NotEmpty(message = "First Name is mandatory")
 	private String firstname;
 
 	private String lastname;
 
 	@Column(unique = true, nullable = false)
-	@NotEmpty
+	@NotEmpty(message = "Email is mandatory")
 	@Email
 	private String email;
 

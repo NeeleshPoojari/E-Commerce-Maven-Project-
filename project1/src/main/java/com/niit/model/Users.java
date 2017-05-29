@@ -15,10 +15,11 @@ public class Users {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	@Column(unique = true, nullable = false)
-	@NotEmpty
+	@NotEmpty(message = "User Name is mandatory")
 	private String username;
 	@NotEmpty
 	private String password;
+
 	private boolean enabled;
 	@OneToOne(mappedBy = "users")
 	private Customer customer;

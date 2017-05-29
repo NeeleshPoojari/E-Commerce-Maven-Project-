@@ -12,11 +12,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>ProductForm</title>
 </head>
-<body>
+<body id="myPage">
 	<%@ include file="Header.jsp"%>
 
 
-	<div class="container wrapper">
+	<div class="container wrapper" style="margin-top: 50px">
 		<div class="container">
 			<url:url var="url" value="/admin/product/saveproduct"></url:url>
 			<form:form action="${url }" modelAttribute="product" method="post"
@@ -75,7 +75,7 @@
 
 				<div class="form-group">
 					<label for="category">Select Category</label>
-					<c:forEach items="${categorydetails }" var="c">
+					<c:forEach items="${categories }" var="c">
 
 						<form:radiobutton path="category.cid" value="${c.cid }" />${c.categoryDetails }
 
@@ -90,7 +90,8 @@
 				</div>
 				<br>
 
-				<button type="submit" class="btn btn-success">Add Product</button>
+				<button type="submit" class="btn btn-success"
+					style="margin-bottom: 30px" >Add Product</button>
 
 			</form:form>
 

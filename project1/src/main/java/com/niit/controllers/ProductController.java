@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.niit.model.Category;
@@ -93,4 +95,16 @@ public class ProductController {
 		productService.deleteProduct(id);
 		return "redirect:/all/product/productlist";
 	}
+	
+	@RequestMapping("/all/product/productsByCategory")
+	public String getProductsByCategory(@RequestParam(name="searchCondition") String searchCondition,
+			Model model,HttpSession session){
+	        session.setAttribute("categories",categoryService.getAllCategories());
+		List<Product> products=productService.getAllProducts();
+		//Assigning list of products to model attribute products
+		model.addAttribute("products",products);
+		model.addAttribute("searchCondition",searchCondition);
+		return "productlist";
+	}
+
 }

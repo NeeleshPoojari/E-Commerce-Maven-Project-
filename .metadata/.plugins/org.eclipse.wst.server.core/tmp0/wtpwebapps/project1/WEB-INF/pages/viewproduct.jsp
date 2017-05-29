@@ -7,7 +7,7 @@
 <html>
 <head>
 <style type="text/css">
-p {
+.i {
 	text-align: center;
 	font-size: 200%;
 }
@@ -17,18 +17,43 @@ p {
 <%@ include file="Header.jsp"%>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
-<body>
-	<p>
-		<!--Showing Product Details -->
-		<url:url value="/resources/images/${id }.png" var="url4"></url:url>
-		<img src="${url4 }" height="400"> <br> PRODUCT NAME:
-		${product.name } <br> PRICE : ${product.price } <br>MANUFACTURER:
-		${product.manufacturer } <br>Description:${product.description }
-		<Br>
-	<p>
-		<!--Redirecting to productlist when click on below link  -->
-		<url:url value="/all/product/productlist" var="url"></url:url>
-		<a href="${url }">Browse All Products</a>
+<body id="myPage">
+	<div style="margin-top: 50px">
+		<p class="i">
+			<!--Showing Product Details -->
+			<url:url value="/resources/images/${id }.png" var="url4"></url:url>
+			<img src="${url4 }" height="400">
+		<div class="container">
+			<table class="table table-hover" border="1">
+				<thead>
+					<tr>
+						<th>PRODUCT NAME</th>
+						<th>PRICE</th>
+						<th>MANUFACTURER</th>
+						<th>Description & Features</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>${product.name }</td>
+						<td>${product.price }</td>
+						<td>${product.manufacturer }</td>
+						<td>${product.description }</td>
+					</tr>
+
+
+				</tbody>
+			</table>
+			<p class="i" style="color: red;">
+				<!--Redirecting to productlist when click on below link  -->
+				<url:url value="/all/product/productlist" var="url"></url:url>
+				<a href="${url }">Browse All Products</a>
+			</p>
+		</div>
+
+
+	</div>
 </body>
+
 <%@include file="Footer.jsp"%>
 </html>

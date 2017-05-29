@@ -12,15 +12,15 @@ public class ShippingAddress {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-	@NotEmpty
+	@NotEmpty(message = "Apartment Number is mandatory")
 	private String apartmentnumber;
-	@NotEmpty
+	@NotEmpty(message = "Street Name is mandatory")
 	private String streetname;
-	@NotEmpty
+	@NotEmpty(message = "City is mandatory")
 	private String city;
-	@NotEmpty
+	@NotEmpty(message = "Country is mandatory")
 	private String country;
-	@NotEmpty
+	@NotEmpty(message = "Zipcode is mandatory")
 	private String zipcode;
 
 	public int getId() {
