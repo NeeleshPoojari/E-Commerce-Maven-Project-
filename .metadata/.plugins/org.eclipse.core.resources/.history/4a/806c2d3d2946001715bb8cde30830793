@@ -1,0 +1,27 @@
+package com.niit.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.niit.model.Cart;
+
+import com.niit.service.CartService;
+
+@Controller
+public class CartController {
+	
+@Autowired
+private CartService cartService;
+	
+ 
+@RequestMapping("/saveToCart")
+public String SaveToCart(Cart cart)
+{
+  cartService.saveToCart(cart);
+  return "";
+
+ 
+}	
+
+}

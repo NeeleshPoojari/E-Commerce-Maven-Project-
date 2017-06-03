@@ -30,7 +30,8 @@
 						<th>PRODUCT NAME</th>
 						<th>PRICE</th>
 						<th>MANUFACTURER</th>
-						<th>Description & Features</th>
+						<th>DESCRIPTION</th>
+						<th>ADD TO CART</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -39,6 +40,13 @@
 						<td>${product.price }</td>
 						<td>${product.manufacturer }</td>
 						<td>${product.description }</td>
+						<td>
+							<div align="center">
+								<url:url value="/cart/addToCart/${id }" var="url"></url:url>
+								<a href="${url4 }"><span class="fa fa-shopping-cart"></span></a>
+
+							</div>
+						</td>
 					</tr>
 
 

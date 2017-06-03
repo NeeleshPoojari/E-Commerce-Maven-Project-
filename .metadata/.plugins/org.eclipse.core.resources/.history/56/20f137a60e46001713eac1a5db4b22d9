@@ -1,0 +1,11 @@
+package com.niit.service;
+
+import com.niit.model.Product;
+
+public interface CartService {
+
+	void saveToCart(Product product);
+
+
+
+}

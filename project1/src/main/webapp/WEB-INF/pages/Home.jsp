@@ -115,7 +115,7 @@
 				<div class="col-sm-4">
 					<iframe  class="embed-responsive-item"
 						src="https://www.youtube.com/embed/xQ_IQS3VKjA"> </iframe>
-					<p>CYCLE</p>
+					<p><big><b>MOUNTAIN BICYCLE</b></big></p>
 				</div>
 				
 				<div class="col-sm-4">
@@ -123,7 +123,7 @@
 						<p ><big><b>"KEEP CALM AND PEDAL ON "</b></big></p>
 					</div>
 					<div class="well" style="background-color:#66ff33;">
-						<p><big><b>"LIFE IS LIKE RIDING BICYCLE.TO KEEP YOUR BALANCE YOU MUST KEEP MOVING"</b></big></p>
+						<p><big><b>"LIFE IS LIKE RIDING BICYCLE,TO KEEP YOUR BALANCE YOU MUST KEEP MOVING"</b></big></p>
 					</div>
 				</div>
 			</div>

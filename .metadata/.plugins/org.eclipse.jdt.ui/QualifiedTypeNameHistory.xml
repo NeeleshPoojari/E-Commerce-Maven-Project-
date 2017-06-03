@@ -31,7 +31,6 @@
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="com.niit.model.Users"/>
 <fullyQualifiedTypeName name="com.niit.model.Authorities"/>
-<fullyQualifiedTypeName name="com.niit.model.Cart"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
@@ -39,4 +38,6 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="com.niit.model.Cart"/>
 </qualifiedTypeNameHistroy>

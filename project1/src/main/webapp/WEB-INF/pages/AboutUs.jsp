@@ -162,7 +162,9 @@
 					</div>
 					<h3>Address</h3>
 					<p>Give a call or write an Email.</p>
-
+					<p>
+						<i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>Pune,Maharashtra
+					</p>
 					<p>
 						<i class="fa fa-phone w3-text-teal w3-xlarge"></i>+91 8390940132
 					</p>

@@ -15,7 +15,7 @@ public class Category {
 	private int cid;
 	private String categoryDetails;
 	@OneToMany(mappedBy = "category")
-	private List<Product> products;
+	private List<Product>products;
 
 	public int getCid() {
 		return cid;
