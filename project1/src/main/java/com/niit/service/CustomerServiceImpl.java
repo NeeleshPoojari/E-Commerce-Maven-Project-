@@ -20,4 +20,17 @@ public class CustomerServiceImpl implements CustomerService {
 	public List<Customer> getCustomers() {
 		return customerDao.getCustomers();
 	}
+
+	@Override
+	public Customer getCustomerByName(String name) {
+		// TODO Auto-generated method stub
+		return	customerDao.getCustomerByName(name);
+	}
+
+	
+/*	@Override
+	public void getCustomerById() {
+		// TODO Auto-generated method stub
+		
+	}*/
 }

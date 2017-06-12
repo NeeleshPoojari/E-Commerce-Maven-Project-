@@ -4,7 +4,7 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="url"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page isELIgnored="false"%>
- <%@ taglib prefix="security"
+<%@ taglib prefix="security"
 	uri="http://www.springframework.org/security/tags"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
@@ -37,7 +37,7 @@
 <body>
 	<nav class="navbar navbar-fixed-top navbar-default">
 	<div class="container-fluid">
-	
+
 		<button type="button" class="navbar-toggle collapsed"
 			data-toggle="collapse" data-target="#collapse-example"
 			aria-expanded="false">
@@ -59,10 +59,10 @@
 
 				<url:url value="/aboutus" var="url2"></url:url>
 				<li><a href="${url2 }"><b>About Us</b></a></li>
-				
-                <security:authorize access="hasRole('ROLE_ADMIN')">
-				<url:url value="/admin/product/productform" var="url3"></url:url>
-				<li><a href="${url3 }"><b>Add Product</b></a></li>
+
+				<security:authorize access="hasRole('ROLE_ADMIN')">
+					<url:url value="/admin/product/productform" var="url3"></url:url>
+					<li><a href="${url3 }"><b>Add Product</b></a></li>
 				</security:authorize>
 
 				<url:url value="/all/product/productlist" var="url6"></url:url>
@@ -85,6 +85,8 @@
 
 					</ul></li>
 
+
+
 			</ul>
 
 			<!--Sign up login features  -->
@@ -94,8 +96,19 @@
 
 				<c:if test="${pageContext.request.userPrincipal.name!=null }">
 					<li><a href=""><b><big>Welcome
-								${pageContext.request.userPrincipal.name }</big></b></a></li>
+									${pageContext.request.userPrincipal.name }</big></b></a></li>
 				</c:if>
+
+				<security:authorize access="hasRole('ROLE_USER')">
+					<url:url value="/cart/ViewCart" var="url9"></url:url>
+					<li><a href="${url9 }"><span
+							class="glyphicon glyphicon-shopping-cart"></span> <b>Cart</b></a></li>
+				</security:authorize>
+
+
+
+
+
 				<c:if test="${pageContext.request.userPrincipal.name==null }">
 					<url:url value="/all/registrationform" var="url7"></url:url>
 

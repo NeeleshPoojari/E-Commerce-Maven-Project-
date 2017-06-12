@@ -90,8 +90,17 @@
 				</div>
 				<br>
 
-				<button type="submit" class="btn btn-success"
-					style="margin-bottom: 30px" >Add Product</button>
+				<c:if test="${product.id== 0}">
+
+					<button type="submit" class="btn btn-success"
+						style="margin-bottom: 30px">Add Product</button>
+				</c:if>
+
+				<c:if test="${product.id!=0}">
+
+					<button type="submit" class="btn btn-success"
+						style="margin-bottom: 30px">Edit Product</button>
+				</c:if>
 
 			</form:form>
 

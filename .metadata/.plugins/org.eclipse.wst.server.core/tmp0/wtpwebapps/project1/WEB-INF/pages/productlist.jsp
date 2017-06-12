@@ -30,11 +30,12 @@
 		<table class="table table-hover" border="1">
 
 
-			<thead>
+			<thead style="background-color: #00b8e6;">
 				<tr>
 					<th>Image</th>
 					<th>Product Name</th>
 					<th>Price</th>
+					<th>Stock</th>
 					<th>Category</th>
 					<th>Action</th>
 				</tr>
@@ -49,7 +50,9 @@
 						<td>${p.name }</td>
 
 						<td>${p.price }</td>
+						<td>${p.unitInStock }</td>
 						<td>${p.category.categoryDetails }</td>
+
 
 						<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
 						<td><a href="${url }"><span

@@ -1,0 +1,71 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<%@ taglib uri="http://www.springframework.org/tags" prefix="url"%>
+<%@page isELIgnored="false"%>
+<html>
+<head>
+<style type="text/css">
+.i {
+	text-align: center;
+	font-size: 200%;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>View Product</title>
+<%@ include file="Header.jsp"%>
+</head>
+<body id="myPage">
+	<div style="margin-top: 50px">
+		<p class="i">
+			<!--Showing Product Details -->
+			<url:url value="/resources/images/${id }.png" var="url4"></url:url>
+			<img src="${url4 }" height="400">
+
+		</p>
+	</div>
+	<div class="col-xs-2">
+	<c:if test="${product.unitInStock>=1}">
+	<p  style="background-color: #33ff33;"><big>In Stock</big></p>
+	
+	</c:if>
+	
+	<c:if test="${product.unitInStock<=0}">
+	<pre style="color: red;">Out Of Stock</pre>
+	</c:if>
+</div>
+
+
+	<div class="well well-lg" style="background-color: #99ffdd;">
+		<ul>
+			<li>PRODUCT NAME : ${product.name }</li>
+			<li>PRICE : ${product.price }</li>
+			<li>MANUFACTURER : ${product.manufacturer }</li>
+			<li>Unit In Stock:${product.unitInStock }</li>
+			<li>DESCRIPTION : ${product.description }</li>
+			
+			
+		</ul>
+
+		<br>
+		<div align="center">
+			<url:url value="/cart/addToCart/${id }" var="url"></url:url>
+			<a href="${url4 }"
+				style="background-size: 20%; background-color: orange; font-size: 150%;"><span
+				class="fa fa-shopping-cart"><big>Add To Cart</big></span></a>
+		</div>
+	</div>
+
+
+
+	<p class="i" style="color: red;">
+		<!--Redirecting to productlist when click on below link  -->
+		<url:url value="/all/product/productlist" var="url"></url:url>
+		<a href="${url }">Browse All Products</a>
+	</p>
+
+</body>
+
+<%@include file="Footer.jsp"%>
+</html>

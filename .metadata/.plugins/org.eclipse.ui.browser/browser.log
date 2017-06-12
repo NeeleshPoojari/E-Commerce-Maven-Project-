@@ -257,3 +257,148 @@ May 13, 2017 16:09:09.63 [GPU 7800] WARNING: pipe error: 109: file c:/builds/moz
 May 13, 2017 16:09:10.67 
 May 13, 2017 16:09:10.67 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 May 13, 2017 16:09:10.68 
+
+Jun 05, 2017 09:55:54.62 NEW SESSION
+Jun 05, 2017 09:55:54.62 [14428:10352:0605/095553.785:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 09:55:54.70 [14428:10352:0605/095553.785:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 09:55:54.70 [14428:10352:0605/095553.786:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 09:55:54.70 [14428:10352:0605/095553.786:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 09:55:54.70 [14428:10352:0605/095553.786:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+Jun 05, 2017 23:15:17.85 NEW SESSION
+Jun 05, 2017 23:15:17.85 [7200:1420:0605/231517.466:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 23:15:17.93 [7200:1420:0605/231517.466:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 23:15:17.93 [7200:1420:0605/231517.466:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 23:15:17.93 [7200:1420:0605/231517.466:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 05, 2017 23:15:17.93 [7200:1420:0605/231517.466:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+Jun 09, 2017 12:26:15.64 NEW SESSION
+Jun 09, 2017 12:26:15.66 [12076:3320:0609/122615.617:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:26:16.48 [12076:3320:0609/122616.488:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:26:16.49 [12076:3320:0609/122616.489:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:26:16.49 [12076:3320:0609/122616.489:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:26:16.49 [12076:3320:0609/122616.489:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:26:16.49 [12076:3320:0609/122616.490:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:30:30.11 [12076:3320:0609/123030.116:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:30:30.12 [12076:3320:0609/123030.120:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:30:30.12 [12076:3320:0609/123030.122:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:30:30.12 [12076:3320:0609/123030.123:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:30:30.12 [12076:3320:0609/123030.123:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:30:30.12 [12076:3320:0609/123030.123:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+Jun 09, 2017 12:40:32.85 NEW SESSION
+Jun 09, 2017 12:40:32.85 [13084:12828:0609/124032.852:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:40:32.88 [13084:12828:0609/124032.854:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:40:32.88 [13084:12828:0609/124032.854:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:40:32.88 [13084:12828:0609/124032.854:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 12:40:32.88 [13084:12828:0609/124032.854:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:03:45.95 [12048:14080:0609/130345.838:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:03:46.14 [12048:14080:0609/130346.140:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:03:46.29 [12048:14080:0609/130346.291:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:03:46.29 [12048:14080:0609/130346.292:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:03:46.29 [12048:14080:0609/130346.294:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+Jun 09, 2017 13:11:20.57 NEW SESSION
+Jun 09, 2017 13:11:20.57 [10820:11284:0609/131120.576:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:11:20.57 [10820:11284:0609/131120.576:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:11:20.58 [10820:11284:0609/131120.576:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:11:20.58 [10820:11284:0609/131120.576:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 13:11:20.58 [10820:11284:0609/131120.576:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+Jun 09, 2017 22:26:12.21 NEW SESSION
+Jun 09, 2017 22:26:12.22 [4188:10116:0609/222612.214:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:12.24 [4188:10116:0609/222612.214:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:12.24 [4188:10116:0609/222612.214:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:12.24 [4188:10116:0609/222612.214:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:12.24 [4188:10116:0609/222612.214:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:45.03 [4188:10116:0609/222645.037:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:45.04 [4188:10116:0609/222645.037:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:45.04 [4188:10116:0609/222645.038:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:45.04 [4188:10116:0609/222645.038:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:45.04 [4188:10116:0609/222645.038:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 09, 2017 22:26:45.04 [4188:10116:0609/222645.038:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+Jun 11, 2017 11:46:49.36 NEW SESSION
+Jun 11, 2017 11:46:49.36 [2900:8476:0611/114649.362:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 11:46:49.75 [2900:8476:0611/114649.752:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 11:46:49.76 [2900:8476:0611/114649.766:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 11:46:49.99 [2900:8476:0611/114649.997:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 11:46:50.47 [2900:8476:0611/114650.472:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+
+Jun 11, 2017 22:55:50.39 NEW SESSION
+Jun 11, 2017 22:55:50.39 [12196:10056:0611/225549.395:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:55:50.40 [12196:10056:0611/225549.471:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:55:50.40 [12196:10056:0611/225549.544:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:55:50.40 [12196:10056:0611/225549.545:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:55:50.41 [12196:10056:0611/225549.558:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:55:52.98 [12196:10056:0611/225552.980:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+Jun 11, 2017 22:55:53.19 [12196:10056:0611/225553.197:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+Jun 11, 2017 22:55:53.20 [12196:10056:0611/225553.200:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+Jun 11, 2017 22:55:53.20 [12196:10056:0611/225553.201:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+Jun 11, 2017 22:55:53.20 [12196:10056:0611/225553.201:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+Jun 11, 2017 22:55:53.20 [12196:10056:0611/225553.202:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jun 11, 2017 22:55:53.20 [12196:10056:0611/225553.203:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+Jun 11, 2017 22:55:53.21 [12196:10056:0611/225553.203:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jun 11, 2017 22:55:53.21 [12196:10056:0611/225553.204:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jun 11, 2017 22:56:31.89 [12196:10056:0611/225631.889:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:31.94 [12196:10056:0611/225631.890:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:31.94 [12196:10056:0611/225631.890:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:31.95 [12196:10056:0611/225631.890:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:31.95 [12196:10056:0611/225631.890:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:31.95 [12196:10056:0611/225631.890:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:35.65 [12196:10056:0611/225635.649:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:35.65 [12196:10056:0611/225635.651:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:35.65 [12196:10056:0611/225635.651:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:35.65 [12196:10056:0611/225635.651:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:35.65 [12196:10056:0611/225635.651:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 22:56:35.65 [12196:10056:0611/225635.652:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:06:56.18 [12196:10056:0611/230656.181:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:06:56.21 [12196:10056:0611/230656.182:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:06:56.21 [12196:10056:0611/230656.185:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:06:56.21 [12196:10056:0611/230656.185:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:06:56.21 [12196:10056:0611/230656.186:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:06:56.21 [12196:10056:0611/230656.186:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:14:03.51 [12196:10056:0611/231403.515:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:14:03.54 [12196:10056:0611/231403.516:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:14:03.54 [12196:10056:0611/231403.516:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:14:03.54 [12196:10056:0611/231403.516:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:14:03.54 [12196:10056:0611/231403.516:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:14:03.54 [12196:10056:0611/231403.516:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:24:31.76 [12196:10056:0611/232431.759:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:24:31.76 [12196:10056:0611/232431.760:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:24:31.76 [12196:10056:0611/232431.764:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:24:31.77 [12196:10056:0611/232431.764:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:24:31.77 [12196:10056:0611/232431.765:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:24:31.77 [12196:10056:0611/232431.765:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:39:03.85 [12196:10056:0611/233903.856:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:39:03.86 [12196:10056:0611/233903.857:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:39:03.86 [12196:10056:0611/233903.861:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:39:03.86 [12196:10056:0611/233903.862:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:39:03.86 [12196:10056:0611/233903.862:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 11, 2017 23:39:03.86 [12196:10056:0611/233903.862:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:01:24.71 [12196:10056:0612/000124.712:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:01:24.71 [12196:10056:0612/000124.712:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:01:24.72 [12196:10056:0612/000124.712:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:01:24.72 [12196:10056:0612/000124.712:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:01:24.72 [12196:10056:0612/000124.712:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:01:24.72 [12196:10056:0612/000124.712:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:07:37.38 [12196:10056:0612/000737.384:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jun 12, 2017 24:07:42.08 [12196:10056:0612/000742.086:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jun 12, 2017 24:27:02.64 [12196:10056:0612/002702.647:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:02.66 [12196:10056:0612/002702.648:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:02.66 [12196:10056:0612/002702.648:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:02.66 [12196:10056:0612/002702.648:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:02.66 [12196:10056:0612/002702.648:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:02.66 [12196:10056:0612/002702.648:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:12.10 [12196:10056:0612/002712.101:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:12.10 [12196:10056:0612/002712.102:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:12.10 [12196:10056:0612/002712.102:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:12.10 [12196:10056:0612/002712.102:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:12.10 [12196:10056:0612/002712.102:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:12.11 [12196:10056:0612/002712.102:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:26.40 [12196:10056:0612/002726.401:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:26.40 [12196:10056:0612/002726.402:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:26.40 [12196:10056:0612/002726.402:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:26.40 [12196:10056:0612/002726.402:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:26.40 [12196:10056:0612/002726.402:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Jun 12, 2017 24:27:26.40 [12196:10056:0612/002726.403:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.

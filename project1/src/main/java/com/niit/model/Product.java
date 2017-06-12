@@ -1,5 +1,7 @@
 package com.niit.model;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -43,6 +45,18 @@ public class Product {
 
 	@Transient
 	private MultipartFile image;
+	
+	@OneToMany(mappedBy="product")
+	private List<CartItem> cartItem;
+	
+	
+	public List<CartItem> getCartItem() {
+		return cartItem;
+	}
+
+	public void setCartItem(List<CartItem> cartItem) {
+		this.cartItem = cartItem;
+	}
 
 	public MultipartFile getImage() {
 		return image;

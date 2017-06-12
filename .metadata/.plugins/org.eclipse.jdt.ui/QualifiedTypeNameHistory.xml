@@ -40,4 +40,5 @@
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="com.niit.model.Cart"/>
+<fullyQualifiedTypeName name="org.hibernate.Transaction"/>
 </qualifiedTypeNameHistroy>

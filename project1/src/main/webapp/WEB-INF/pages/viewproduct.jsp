@@ -9,13 +9,16 @@
 <style type="text/css">
 .i {
 	text-align: center;
-	font-size: 200%;
-}
+	font-size: 200%;}
+#siz{
+
+font-size:125%; 
+}	
 </style>
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>View Product</title>
 <%@ include file="Header.jsp"%>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body id="myPage">
 	<div style="margin-top: 50px">
@@ -23,44 +26,55 @@
 			<!--Showing Product Details -->
 			<url:url value="/resources/images/${id }.png" var="url4"></url:url>
 			<img src="${url4 }" height="400">
-		<div class="container">
-			<table class="table table-hover" border="1">
-				<thead>
-					<tr>
-						<th>PRODUCT NAME</th>
-						<th>PRICE</th>
-						<th>MANUFACTURER</th>
-						<th>DESCRIPTION</th>
-						<th>ADD TO CART</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>${product.name }</td>
-						<td>${product.price }</td>
-						<td>${product.manufacturer }</td>
-						<td>${product.description }</td>
-						<td>
-							<div align="center">
-								<url:url value="/cart/addToCart/${id }" var="url"></url:url>
-								<a href="${url4 }"><span class="fa fa-shopping-cart"></span></a>
 
-							</div>
-						</td>
-					</tr>
-
-
-				</tbody>
-			</table>
-			<p class="i" style="color: red;">
-				<!--Redirecting to productlist when click on below link  -->
-				<url:url value="/all/product/productlist" var="url"></url:url>
-				<a href="${url }">Browse All Products</a>
-			</p>
-		</div>
-
-
+		</p>
 	</div>
+	
+	<div  class="well well-sm">
+	<c:if test="${product.unitInStock>=1}">
+	<p style="color: green; text-align: center;font-size:150%;" >Hurry Up Only ${product.unitInStock } In Stock Left. </p>
+	  
+	</c:if>
+	
+	<c:if test="${product.unitInStock<=0}">
+	<p style="color: red;text-align: center;font-size:150%;">Oppss!!! Out Of Stock.</p>
+	
+	</c:if>
+</div>
+
+
+	<div class="well well-lg" style="background-color: #1ac6ff;" id="siz">
+		<ul>
+			<li>PRODUCT NAME : ${product.name }</li>
+			<li>PRICE : ${product.price }</li>
+			<li>MANUFACTURER : ${product.manufacturer }</li>
+			<li>DESCRIPTION : ${product.description }</li>
+			
+			
+		</ul>
+
+		<br>
+		
+		<security:authorize access="hasRole('ROLE_USER')">
+							<div align="center">
+							<url:url value="/cart/addToCart/${id}" var="url4"></url:url>
+		 <a href="${url4}" class="btn btn-warning" role="button"><span class="fa fa-shopping-cart"></span>Add to cart</a>
+		 </div>
+		 </security:authorize>
+		 
+		
+		 
+		
+	</div>
+
+
+
+	<p class="i" style="color: red;">
+		<!--Redirecting to productlist when click on below link  -->
+		<url:url value="/all/product/productlist" var="url"></url:url>
+		<a href="${url }">Browse All Products</a>
+	</p>
+
 </body>
 
 <%@include file="Footer.jsp"%>

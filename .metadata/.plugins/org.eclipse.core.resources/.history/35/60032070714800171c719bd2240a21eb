@@ -1,7 +1,0 @@
-package com.niit.dao;
-
-import junit.framework.TestCase;
-
-public class CustomerDaoImplTest extends TestCase {
-
-}
