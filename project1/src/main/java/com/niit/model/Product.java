@@ -32,7 +32,7 @@ public class Product {
 	@Min(value = 100, message = "Minimum price should be 100")
 	private double price;
 
-	@Min(value = 10, message = "Minimum Stock should be 10 ")
+	@Min(value=0,message = "Minimum price should be 0")
 	private int unitInStock;
 
 	@NotEmpty(message = "Description is mandatory")

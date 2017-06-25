@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Product list</title>
+<title>Cycle Store</title>
 <script>
 	$(document).ready(function() {
 		var searchCondition = '${searchCondition}';

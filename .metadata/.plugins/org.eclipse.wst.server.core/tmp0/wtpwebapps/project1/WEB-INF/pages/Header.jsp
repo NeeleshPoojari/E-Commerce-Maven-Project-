@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
 
-<title>Header</title>
+<title>Cycle Store</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -46,8 +46,8 @@
 		</button>
 
 		<div class="navbar-header">
-			<url:url value="/resources/images/gogreen2.png" var="url6"></url:url>
-			<a class="navbar-brand" href="#"><img src="${url6 }" alt="Green"
+			<url:url value="/resources/images/sym.png" var="url6"></url:url>
+			<a class="navbar-brand" href="${url1 }"><img src="${url6 }" alt="Green"
 				height="30px" width="30px"></a>
 		</div>
 		<div class="collapse navbar-collapse" id="collapse-example">

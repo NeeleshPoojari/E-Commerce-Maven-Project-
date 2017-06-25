@@ -6,6 +6,7 @@
 <%@page isELIgnored="false"%>
 <html>
 <head>
+
 <style type="text/css">
 .i {
 	text-align: center;
@@ -17,7 +18,7 @@ font-size:125%;
 </style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>View Product</title>
+<title>Cycle Store</title>
 <%@ include file="Header.jsp"%>
 </head>
 <body id="myPage">
@@ -32,7 +33,7 @@ font-size:125%;
 	
 	<div  class="well well-sm">
 	<c:if test="${product.unitInStock>=1}">
-	<p style="color: green; text-align: center;font-size:150%;" >Hurry Up Only ${product.unitInStock } In Stock Left. </p>
+	<p style="color: green; text-align: center;font-size:150%;" >Hurry Up Limited Stock Available. </p>
 	  
 	</c:if>
 	
@@ -49,6 +50,7 @@ font-size:125%;
 			<li>PRICE : ${product.price }</li>
 			<li>MANUFACTURER : ${product.manufacturer }</li>
 			<li>DESCRIPTION : ${product.description }</li>
+			<li>UNIT IN STOCK:${product.unitInStock }</li>
 			
 			
 		</ul>
@@ -57,8 +59,11 @@ font-size:125%;
 		
 		<security:authorize access="hasRole('ROLE_USER')">
 							<div align="center">
+							
+							<c:if test="${product.unitInStock>=1}">
 							<url:url value="/cart/addToCart/${id}" var="url4"></url:url>
 		 <a href="${url4}" class="btn btn-warning" role="button"><span class="fa fa-shopping-cart"></span>Add to cart</a>
+		 </c:if>
 		 </div>
 		 </security:authorize>
 		 

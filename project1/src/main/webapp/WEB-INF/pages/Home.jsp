@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Carousel</title>
+<title>Cycle Store</title>
 <link rel="stylesheet"
 	href="http://localhost:8080/project1/resources/css/carouselsetting.css">
 </head>
@@ -12,12 +12,12 @@
 
 	<%@include file="Header.jsp"%>
 
-	<h1  align="center"
-		style="color: #0099bf;; margin-top: 50px; background-color: white;">
-		<b><u>WELCOME TO CYCLE STORE</u></b>
+	<h1 align="center"
+		style="color: white; margin-top: 53px; background-color: black;">
+		<b>WELCOME TO CYCLE STORE</b>
 	</h1>
 
-	<div style="margin-top: 10px">
+	<div style="margin-top: 6px">
 
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -77,28 +77,40 @@
 				</a>
 			</div>
 		</div>
+
+		<h1 align="center"
+			style="color: white; margin-top: 25px; background-color:black;">
+			<b>How Cycling helps?</b></h1>
+
 		<div class="container text-center">
-			<h3 style="color: blue;">
-				<big>How Bicycle Helps??</big>
-			</h3>
-			<br>
-			<div class="row">
-				<div class="col-sm-4">
-					<iframe class="embed-responsive-item"
-						src="https://www.youtube.com/embed/aWmiL1aIKFU"> </iframe>
-					<p>
-						<big><b>WHY CYCLE???</b></big>
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<iframe class="embed-responsive-item"
-						src="https://www.youtube.com/embed/xQ_IQS3VKjA"> </iframe>
-					<p>
-						<big><b>MOUNTAIN BICYCLE</b></big>
-					</p>
+			<div class="well-lg" style="background-color: black;">
+				<div class="row">
+					<div class="col-sm-4">
+						<iframe class="embed-responsive-item"
+							src="https://www.youtube.com/embed/aWmiL1aIKFU"> </iframe>
+						<p>
+							<big><b>Reasons for Cycling</b></big>
+						</p>
+					</div>
+					<div class="col-sm-4">
+						<iframe class="embed-responsive-item"
+							src="https://www.youtube.com/embed/xQ_IQS3VKjA"> </iframe>
+						<p>
+							<big><b>Mountain Cycle</b></big>
+						</p>
+					</div>
+
+					<div class="col-sm-4">
+						<iframe class="embed-responsive-item"
+							src="https://www.youtube.com/embed/iUQo4bAbQIg"> </iframe>
+						<p>
+							<big><b>Benefits of Cycling</b></big>
+						</p>
+					</div>
 				</div>
 
-				<div class="col-sm-4">
+				<div class="col-sm-4" style="margin-left: 34%;margin-top:5%; ">
+				<div class="well-lg" style="background-color: black;">
 					<div class="well" style="background-color: #ff3333;">
 						<p>
 							<big><b>"KEEP CALM AND PEDAL ON "</b></big>
@@ -110,6 +122,7 @@
 									BALANCE YOU MUST KEEP MOVING"</b></big>
 						</p>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>

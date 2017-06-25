@@ -67,6 +67,7 @@ public class CartItemDaoImpl implements CartItemDao {
 		Session session=sessionFactory.openSession();
 		List<CartItem> cartItemlist=getAllItemById(id);
 	//	System.out.println("Product2432"+cartItemlist.contains(product));
+		System.out.println("UnitInStock"+product.getUnitInStock());
 		int flag=0;
 		for(CartItem c:cartItemlist)
 		{
@@ -76,6 +77,10 @@ public class CartItemDaoImpl implements CartItemDao {
 				flag=1;
 				c.setQuantity(c.getQuantity()+1);
 				c.setTotalprice(c.getTotalprice()+c.getProduct().getPrice());
+				product.setUnitInStock(product.getUnitInStock()-1);
+				System.out.println(product.getUnitInStock()-1);
+				session.saveOrUpdate(product);
+				
 				session.saveOrUpdate(c);
 				session.flush();
 				session.close();
@@ -88,6 +93,9 @@ public class CartItemDaoImpl implements CartItemDao {
 		CartItem cartItem=new CartItem();
 		cartItem.setQuantity(1);
 		cartItem.setTotalprice(product.getPrice());
+		product.setUnitInStock(product.getUnitInStock()-1);
+		System.out.println(product.getUnitInStock()-1);
+		session.saveOrUpdate(product);
 		cartItem.setProduct(product);
 		cartItem.setCustomer(id);
 		

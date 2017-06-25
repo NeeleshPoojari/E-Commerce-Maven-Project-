@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Form</title>
+<title>Cycle Store</title>
 <link rel="stylesheet"
 	href="http://localhost:8080/project1/resources/css/border.css">
 	

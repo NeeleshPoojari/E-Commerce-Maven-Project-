@@ -4,12 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Cycle Store</title>
 </head>
 <%@ include file="Header.jsp"%>
 <body style="margin-top: 80px">
 
-	<h1 align="center" style="color: green;">Successfully added to Cart</h1>
+	<h1 align="center" style="color: green;">Successfully added to
+		Cart</h1>
+
 
 
 
@@ -18,13 +20,14 @@
 
 	<url:url value="/all/product/productlist" var="url2"></url:url>
 	<url:url value="/cart/ViewCart" var="url3"></url:url>
-	<url:url value="/all/product/productlist" var="url4"></url:url>
+
 	<div class="container">
-	<div class="btn-group btn-group-justified">
-		<a href="${url2 }" class="btn btn-primary">Back To Productlist</a> <a
-			href="${url3 }" class="btn btn-warning">Go To Cart</a> <a
-			href="${url4 }" class="btn btn-success">Pay now</a>
-	</div>
+		<div class="btn-group btn-group-justified">
+			<a href="${url2 }" class="btn btn-primary">Back To Productlist</a> <a
+				href="${url3 }" class="btn btn-warning">Go To Cart</a> <a
+				href="${pageContext.request.contextPath}/memberShip.obj"
+				style="margin: 50;" class="btn btn-success">Pay now</a>
+		</div>
 	</div>
 
 

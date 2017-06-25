@@ -1,0 +1,11 @@
+127.0.0.1 - - [19/Jun/2017:19:07:57 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:05 +0530] "GET /project1/ HTTP/1.1" 200 8790
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:06 +0530] "GET /project1/resources/css/custom.css HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:06 +0530] "GET /project1/resources/css/carouselsetting.css HTTP/1.1" 200 451
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:06 +0530] "GET /project1/resources/images/sym.png HTTP/1.1" 200 3534
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:06 +0530] "GET /project1/resources/images/cy4.jpg HTTP/1.1" 200 85122
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:06 +0530] "GET /project1/resources/images/cy3.jpg HTTP/1.1" 200 78530
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:07 +0530] "GET /project1/resources/images/cy5.jpg HTTP/1.1" 200 168182
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:07 +0530] "GET /project1/resources/images/cy2.jpg HTTP/1.1" 200 107257
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:07 +0530] "GET /project1/resources/images/cy1.jpg HTTP/1.1" 200 97947
+0:0:0:0:0:0:0:1 - - [19/Jun/2017:19:08:09 +0530] "GET /favicon.ico HTTP/1.1" 404 1016

@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>About go green</title>
+<title>Cycle Store</title>
 <link rel="stylesheet" type="text/css"
 	href="resources/css/background.css">
 
@@ -24,7 +24,7 @@
 	<div style="margin-top: 50px">
 		<%@include file="Header.jsp"%>
 
-		<h1>Hello World! Go Green with Best Cycles</h1>
+		<h1 style="color: white;">Hello World! Go Green with Best Cycles</h1>
 
 
 
@@ -43,7 +43,7 @@
 
 		<!-- Image Header -->
 		<div class="container-fluid">
-			<img src="resources/images/aus2.jpg" alt="boat"
+			<img src="resources/images/aus2.jpg" alt="cycle"
 				style="width: 100%; min-height: 350px; max-height: 600px;">
 			<div class="w3-container w3-display-bottomleft w3-margin-bottom">
 				<button
@@ -66,14 +66,14 @@
 					class="fa fa-remove"></i></span>
 				<h4>Hello People</h4>
 				<h5>
-					Wassup <i class="fa fa-smile-o"></i>
+					What is up?? <i class="fa fa-smile-o"></i>
 				</h5>
 				</header>
 				<div class="w3-container">
 					<p>Cool Cycles huh</p>
 					<p>
 						Go to our <a class="w3-text-teal"
-							href="http://localhost:8080/project1">Product List</a> to see
+							href="http://localhost:8080/project1/all/product/productlist">Product List</a> to see
 						more Rides
 					</p>
 				</div>
@@ -132,7 +132,7 @@
 			<div class="container">
 				<h2>Our Work</h2>
 				<p>We are worlds Best Bicycle Sellers.we are having world wide
-					cycle suppliers like india,Us,china and many more</p>
+					cycle suppliers like india,Us,china and many more.</p>
 			</div>
 
 

@@ -6,30 +6,27 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-<style type="text/css">
-
-</style>
+<title>Cycle Store</title>
 </head>
 <body>
 	<%@ include file="Header.jsp"%>
 
 	<div class="container" style="margin-top: 80px">
-		<h1 align="center" style="color: orange;">
-			<b><u>Cart</u></b>
+		<h1 align="center" style="background-color: #00b8e6; color: white;">
+			<b>Cart</b>
 		</h1>
 
 
-		<table class="table table-hover" border="2"  >
+		<table class="table table-hover" border="2">
 
 
 			<thead style="background-color: #00b8e6;">
-				<tr style="border: thick; border-color: black;">
-					
+				<tr>
+
 					<th>Product Name</th>
 					<th>Quantity</th>
 					<th>Total Price</th>
-					<th>delete</th>
+					<th>Delete</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -37,28 +34,43 @@
 				<c:forEach items="${cartItems}" var="c">
 
 					<tr>
-						
-						<td>${c.product.name }</td>
 
-						<td>${c.quantity}</td>
-						<td>${c.totalprice}</td>
-						<td><url:url value="/cart/deleteCartItem/${c.cartItemId }"
-								var="url1"></url:url> <a href="${url1}"><span
-								class="glyphicon glyphicon-trash"></span></a></td>
+						<td><b>${c.product.name }</b></td>
+
+						<td><b>${c.quantity}</b></td>
+						<td><b>${c.totalprice}</b></td>
+						<td align="center"><url:url
+								value="/cart/deleteCartItem/${c.cartItemId }" var="url1"></url:url>
+							<a href="${url1}"><span class="glyphicon glyphicon-trash"></span></a></td>
 					</tr>
 				</c:forEach>
-			<tr><td colspan="3" align="right"><b>Grand Total</b></td><td colspan="2" align="center"><b>${grandtotal }</td></tr>
-    
+				<tr>
+					<td colspan="3" align="right"><b>Grand Total</b></td>
+					<td colspan="2" align="center" style="background-color: #00b8e6;"><b>${grandtotal }</td>
+				</tr>
+
 			</tbody>
 		</table>
-		
-	</div>
 
+	</div>
+	<%-- 
 	<div align="center">
 		<url:url value="/cart/deleteAllCartItem" var="url2"></url:url>
 		<a href="${url2 }" class="btn btn-danger" role="button">Remove All
 			Items</a>
 	</div>
+ --%>
 
+	<div class="container">
+
+		<c:if test="${grandtotal!=0 }">
+			<url:url value="/cart/deleteAllCartItem" var="url2"></url:url>
+			<div class="btn-group btn-group-justified" align="center">
+				<a href="${url2 }" class="btn btn-danger">Remove All</a> <a
+					href="${pageContext.request.contextPath}/memberShip.obj"
+					style="margin: 50;" class="btn btn-success">Pay now</a>
+			</div>
+		</c:if>
+		</div>
 </body>
 </html>

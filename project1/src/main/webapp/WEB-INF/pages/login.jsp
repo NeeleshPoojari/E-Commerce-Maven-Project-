@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Cycle Store</title>
 
 <link rel="stylesheet"
 	href="http://localhost:8080/project1/resources/css/border.css">
@@ -16,7 +16,7 @@
 	<div class="boxed" id="d">
 		<h3><u>ENTER USERNAME AND PASSWORD</u></h3>
 
-		<br> ${error } ${logout } ${registrationSuccess }
+		<br> <h5 style="color: red;">${error } </h5><h5 style="color: green;">${logout } ${registrationSuccess }</h5>
 		<form action="<c:url value="j_spring_security_check"></c:url>"
 			method="post">
 

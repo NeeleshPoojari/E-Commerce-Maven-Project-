@@ -1,6 +1,6 @@
 package com.niit.controllers;
 
-import java.security.Principal;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,6 @@ import com.niit.model.Product;
 import com.niit.service.CartItemService;
 import com.niit.service.CustomerService;
 import com.niit.service.ProductService;
-import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
 public class CartItemController {
@@ -65,10 +64,7 @@ public class CartItemController {
 		System.out.println("custid" + id1);
 
 		cartItemService.addCartItem(product, id1);
-		/*List<CartItem> cartItem = cartItemService.getAllCartItem();
-
-		model.addAttribute("cartItems", cartItem);
-*/
+		
 		return "successful";
 	}	
 	
@@ -139,6 +135,36 @@ public class CartItemController {
 			
 			return "redirect:/all/product/productlist";
 			}
+		  
+		  @RequestMapping("/memberShip.obj")
+			public String getall(Model model){
+				
+				Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+				String name = auth.getName(); // get logged in username
+				System.out.println("Name" + name);
+				Customer id1 = customerService.getCustomerByName(name);
+				
+			List<CartItem> cartItem = cartItemService.getAllCartItemById(id1);
+			double g=0;
+			
+			for(CartItem t:cartItem)
+			{
+				System.out.println("ProductPrice:"+t.getTotalprice());
+			
+				g=g+t.getTotalprice();
+				System.out.println("GrandTotal:"+g);
+			}
+			
+			System.out.println("cartSiZe:"+cartItem.size());
+			
+			model.addAttribute("grandtotal",g);
+		    model.addAttribute("cartItems", cartItem);
+		    cartItemService.removeAllCartItem();
+			return "Bill";
+			
+				
+			}
+		  
 		  
 	 
 	

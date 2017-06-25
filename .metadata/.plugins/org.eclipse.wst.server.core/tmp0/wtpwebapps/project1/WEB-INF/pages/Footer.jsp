@@ -12,7 +12,7 @@
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<title>Insert title here</title>
+<title>Cycle Store</title>
 </head>
 <body>
 	<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
