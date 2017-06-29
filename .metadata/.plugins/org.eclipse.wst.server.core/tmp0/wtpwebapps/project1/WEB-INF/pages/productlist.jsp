@@ -34,6 +34,7 @@
 				<tr>
 					<th>Image</th>
 					<th>Product Name</th>
+					<th>Manufacturer</th>
 					<th>Price</th>
 					<th>Stock</th>
 					<th>Category</th>
@@ -48,6 +49,7 @@
 						<td><img src="${url4 }" height="100"></td>
 
 						<td>${p.name }</td>
+						<td>${p.manufacturer }</td>
 
 						<td>${p.price }</td>
 						<td>${p.unitInStock }</td>

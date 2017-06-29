@@ -1,0 +1,19 @@
+/* 
+
+h1 {
+text-align:center;
+text-decoration:underline; 
+background-color: black;
+
+
+	
+}
+
+ */
+.carousel-inner img {
+	
+	width: 80%; /* Set width to 100% */
+	margin:auto;
+	min-height:200px;
+
+}

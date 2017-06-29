@@ -14,6 +14,12 @@
 
 
 
+	<div  align="center">
+		<img
+			src='<url:url value="http://localhost:8080/project1/resources/images/success.png"></url:url>'>
+	</div>
+
+
 
 
 

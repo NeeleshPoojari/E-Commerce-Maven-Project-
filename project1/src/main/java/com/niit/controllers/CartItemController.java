@@ -156,7 +156,7 @@ public class CartItemController {
 			}
 			
 			System.out.println("cartSiZe:"+cartItem.size());
-			
+			model.addAttribute("Address", id1);
 			model.addAttribute("grandtotal",g);
 		    model.addAttribute("cartItems", cartItem);
 		    cartItemService.removeAllCartItem();
